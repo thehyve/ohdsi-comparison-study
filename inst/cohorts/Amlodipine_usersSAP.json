@@ -1,0 +1,65 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [{
+    "expression": {"items": [{
+      "isExcluded": false,
+      "concept": {
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_ID": 1332418,
+        "STANDARD_CONCEPT": "S",
+        "CONCEPT_CODE": "17767",
+        "VOCABULARY_ID": "RxNorm",
+        "CONCEPT_NAME": "amlodipine",
+        "DOMAIN_ID": "Drug",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "CONCEPT_CLASS_ID": "Ingredient",
+        "INVALID_REASON": "V"
+      },
+      "includeMapped": false,
+      "includeDescendants": true
+    }]},
+    "name": "Amlodipine [SAP]",
+    "id": 1
+  }],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"DrugExposure": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "DrugSourceConcept": null,
+      "CodesetId": 1,
+      "DrugTypeExclude": false,
+      "Quantity": null,
+      "DrugType": null,
+      "ProviderSpecialty": null,
+      "EffectiveDrugDose": null,
+      "Gender": null,
+      "DaysSupply": null,
+      "DoseUnit": null,
+      "VisitType": null,
+      "Refills": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "RouteConcept": null,
+      "StopReason": null,
+      "LotNumber": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 365,
+      "PriorDays": 0
+    }
+  }
+}
